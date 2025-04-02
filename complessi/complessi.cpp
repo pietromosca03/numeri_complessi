@@ -17,7 +17,9 @@ int main(void) {
     cmp hh1(c1.parte_reale(),h1);
     std::cout << hh1 << std::endl;
     double p2 = c2.partereale();
-    std::cout << p2 << std::endl;
+    std::cout <<"la parte reale del numero è "<< p2 << std::endl;
+    double p3 = c2.parteimmaginaria();
+    std::cout <<"la parte immaginaria del numero è "<< p3 << std::endl;
     return 0;
 
 }
